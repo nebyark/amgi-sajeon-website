@@ -255,6 +255,24 @@ footer {
     border-top: 1px solid #333;
 }
 
+.footer-links {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: var(--text-gray);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
 footer p {
     color: var(--text-gray);
 }
@@ -293,6 +311,11 @@ footer p {
 
     .cta h2 {
         font-size: 2rem;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 15px;
     }
 }
 

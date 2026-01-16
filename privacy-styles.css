@@ -1,0 +1,173 @@
+/* Privacy Policy Specific Styles */
+
+.privacy-content {
+    padding: 80px 0;
+    background-color: var(--dark-bg);
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--card-bg);
+    padding: 60px;
+    border-radius: var(--border-radius);
+}
+
+.content-wrapper h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: var(--text-light);
+    font-weight: 700;
+}
+
+.last-updated {
+    color: var(--text-gray);
+    margin-bottom: 40px;
+    font-size: 0.95rem;
+}
+
+.content-wrapper h2 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.content-wrapper h3 {
+    font-size: 1.4rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: var(--text-light);
+    font-weight: 600;
+}
+
+.content-wrapper h4 {
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: var(--text-light);
+    font-weight: 600;
+}
+
+.content-wrapper p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: var(--text-gray);
+}
+
+.content-wrapper ul,
+.content-wrapper ol {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    color: var(--text-gray);
+    line-height: 1.8;
+}
+
+.content-wrapper li {
+    margin-bottom: 10px;
+}
+
+.content-wrapper ul ul,
+.content-wrapper ul ol,
+.content-wrapper ol ul,
+.content-wrapper ol ol {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-wrapper a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.content-wrapper a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.content-wrapper hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 40px 0;
+}
+
+.content-wrapper strong {
+    color: var(--text-light);
+    font-weight: 600;
+}
+
+.disclaimer {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+    font-style: italic;
+    margin-top: 40px;
+}
+
+/* Footer links */
+.footer-links {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: var(--text-gray);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding: 40px 30px;
+    }
+
+    .content-wrapper h1 {
+        font-size: 2rem;
+    }
+
+    .content-wrapper h2 {
+        font-size: 1.5rem;
+    }
+
+    .content-wrapper h3 {
+        font-size: 1.2rem;
+    }
+
+    .content-wrapper h4 {
+        font-size: 1.1rem;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .privacy-content {
+        padding: 40px 0;
+    }
+
+    .content-wrapper {
+        padding: 30px 20px;
+    }
+
+    .content-wrapper h1 {
+        font-size: 1.75rem;
+    }
+
+    .content-wrapper h2 {
+        font-size: 1.3rem;
+        margin-top: 30px;
+    }
+}
