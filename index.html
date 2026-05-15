@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Amgi Sajeon - Offline Korean dictionary with spaced repetition system for Korean learners">
-    <title>Amgi Sajeon - Korean Dictionary App</title>
+    <meta name="description" content="Amgi Sajeon (암기 사전) — Offline Korean dictionary with SRS flashcards, Hanja explorer, conjugation tables, and grammar reference. No account required.">
+    <title>Amgi Sajeon — Offline Korean Dictionary & SRS Flashcards</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="assets/app-icon.png">
 </head>
 <body>
+
     <header>
         <div class="container">
             <div class="header-content">
-                <img src="assets/app-icon.png" alt="AMGI Sajeon Logo" class="logo">
+                <img src="assets/app-icon.png" alt="Amgi Sajeon app icon" class="logo">
                 <div class="header-text">
                     <h1>AMGI SAJEON</h1>
                     <p class="tagline">암기 사전</p>
@@ -23,11 +24,15 @@
 
     <section class="hero">
         <div class="container">
-            <h2>Offline Korean Dictionary with SRS for Korean Learners</h2>
-            <p class="hero-description">Master Korean vocabulary with comprehensive definitions, Hanja insights, conjugation tables, and an integrated spaced repetition system.</p>
+            <div class="hero-eyebrow">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                iOS App · Free to Download
+            </div>
+            <h2>Master Korean,<br><em>offline and ad-free</em></h2>
+            <p class="hero-description">A complete learning toolkit — 61,000+ dictionary entries, Hanja explorer, conjugation tables, and spaced repetition flashcards. No account required.</p>
             <div class="download-buttons">
-                <a href="#" class="btn btn-primary">
-                    <svg class="app-store-icon" viewBox="0 0 24 24" fill="currentColor">
+                <a href="https://apps.apple.com/us/app/amgi-sajeon-korean-dictionary/id6757565609" class="btn btn-primary">
+                    <svg class="app-store-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                     </svg>
                     Download on the App Store
@@ -38,43 +43,57 @@
 
     <section class="features">
         <div class="container">
-            <h2 class="section-title">Features</h2>
+            <p class="section-label">What's inside</p>
+            <h2 class="section-title">Everything you need to learn Korean</h2>
+            <p class="section-subtitle">All features work fully offline. No internet, no account, no ads.</p>
 
             <div class="feature-grid">
                 <div class="feature-card">
-                    <div class="feature-icon">📚</div>
-                    <h3>Comprehensive Dictionary</h3>
-                    <p>Search and discover Korean words with detailed definitions in English, Korean, and Japanese. Includes word of the day to expand your vocabulary.</p>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    </div>
+                    <h3>Offline Dictionary</h3>
+                    <p>Search over 61,000 entries with definitions in English, Korean, and Japanese. Includes conjugation tables, example sentences, and native text-to-speech.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon">🔤</div>
-                    <h3>Hanja Deep Dive</h3>
-                    <p>Explore Hanja characters with readings across Korean, Japanese, and Chinese. View all related words and understand the etymology of Korean vocabulary.</p>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    </div>
+                    <h3>Hanja Explorer</h3>
+                    <p>Search and explore Hanja characters with readings across Korean, Japanese, Mandarin, and Cantonese. See every word that uses a given character.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon">📖</div>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+                    </div>
                     <h3>Conjugation Tables</h3>
-                    <p>Complete conjugation tables for verbs and adjectives, covering declarative, inquisitive, imperative, and propositive forms in all tenses.</p>
+                    <p>Instant conjugation tables for any verb or adjective across all speech levels and tenses. Tap any form in the table to hear it pronounced.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon">🎴</div>
-                    <h3>Spaced Repetition System</h3>
-                    <p>Create custom flashcard decks and review with an intelligent spaced repetition algorithm to maximize retention and learning efficiency.</p>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>SRS Flashcards</h3>
+                    <p>Create custom word and Hanja decks and review with spaced repetition. Cards show conjugated verb and adjective forms. Track your streak and history.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon">📱</div>
-                    <h3>Fully Offline</h3>
-                    <p>Access the complete dictionary, Hanja database, and all features without an internet connection. Perfect for studying anywhere.</p>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                    </div>
+                    <h3>Learning Hub</h3>
+                    <p>Learn Hangul with 10 guided lessons. Browse common words by category — Family, Food, Daily Life, and more. Search the TOPIK grammar reference.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon">📋</div>
-                    <h3>Reference Lists</h3>
-                    <p>Browse curated lists including grammar rules, Hanja characters organized by level, and collections of commonly used words for quick reference.</p>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>No Account. No Ads.</h3>
+                    <p>All data stored locally on your device. Romanization support, dark and light mode, optional Japanese search, and Pinyin/Jyutping for Hanja words.</p>
                 </div>
             </div>
         </div>
@@ -82,45 +101,80 @@
 
     <section class="screenshots">
         <div class="container">
-            <h2 class="section-title">App Screenshots</h2>
-            <div class="screenshot-carousel">
+            <p class="section-label">Screenshots</p>
+            <h2 class="section-title">See it in action</h2>
+            <p class="section-subtitle">Real screenshots from the app — no mockups.</p>
+
+            <div class="screenshot-grid">
                 <div class="screenshot-item">
-                    <img src="assets/screenshots/amgi_app_store_1.png" alt="Home screen with word of the day">
+                    <img src="assets/screenshots/screen_01_home.png" alt="Home screen with cards due, day streak, and word of the day" loading="lazy" width="390" height="844">
+                    <p class="screenshot-caption">Home</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="assets/screenshots/amgi_app_store_2.png" alt="Search and dictionary">
+                    <img src="assets/screenshots/screen_02_word_detail.png" alt="Word detail with definitions, Hanja breakdown, Pinyin and Jyutping" loading="lazy" width="390" height="844">
+                    <p class="screenshot-caption">Word Detail</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="assets/screenshots/amgi_app_store_3.png" alt="Conjugation table">
+                    <img src="assets/screenshots/screen_03_conjugations.png" alt="Conjugation table for an adjective across all speech levels" loading="lazy" width="390" height="844">
+                    <p class="screenshot-caption">Conjugations</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="assets/screenshots/amgi_app_store_4.png" alt="Hanja details">
+                    <img src="assets/screenshots/screen_04_hanja_detail.png" alt="Hanja character detail with readings in Korean, Japanese, Mandarin, and Cantonese" loading="lazy" width="390" height="844">
+                    <p class="screenshot-caption">Hanja</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="assets/screenshots/amgi_app_store_5.png" alt="Flashcard decks">
+                    <img src="assets/screenshots/screen_05_decks.png" alt="암기 decks screen with review heatmap and word counts" loading="lazy" width="390" height="844">
+                    <p class="screenshot-caption">Decks</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="assets/screenshots/amgi_app_store_6.png" alt="Deck review">
+                    <img src="assets/screenshots/screen_06_review_front.png" alt="SRS flashcard review — front of card" loading="lazy" width="390" height="844">
+                    <p class="screenshot-caption">Review — Front</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="assets/screenshots/amgi_app_store_7.png" alt="Spaced repetition">
+                    <img src="assets/screenshots/screen_07_review_back.png" alt="SRS flashcard review — back with conjugations and example sentences" loading="lazy" width="390" height="844">
+                    <p class="screenshot-caption">Review — Back</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="assets/screenshots/amgi_app_store_8.png" alt="Grammar rules">
+                    <img src="assets/screenshots/screen_08_learning.png" alt="Learning hub with Hangul lessons and common word categories" loading="lazy" width="390" height="844">
+                    <p class="screenshot-caption">Learning Hub</p>
                 </div>
                 <div class="screenshot-item">
-                    <img src="assets/screenshots/amgi_app_store_9.png" alt="User preferences">
+                    <img src="assets/screenshots/screen_09_word_search.png" alt="Word search with filter chips for verb, noun, and adjective" loading="lazy" width="390" height="844">
+                    <p class="screenshot-caption">Word Search</p>
                 </div>
+                <div class="screenshot-item">
+                    <img src="assets/screenshots/screen_10_hanja_search.png" alt="Hanja search results" loading="lazy" width="390" height="844">
+                    <p class="screenshot-caption">Hanja Search</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="premium">
+        <div class="container">
+            <p class="section-label">Amgi Package</p>
+            <h2 class="section-title">Unlock the full experience</h2>
+            <p class="section-subtitle">The core dictionary, Hanja explorer, and learning tools are completely free. Go further with optional premium features.</p>
+
+            <div class="premium-card">
+                <div class="premium-badge">Optional Premium</div>
+                <p class="premium-description">One purchase unlocks everything — no subscriptions, no recurring fees.</p>
+                <ul class="premium-list">
+                    <li>Unlimited SRS reviews</li>
+                    <li>Unlimited word and Hanja decks</li>
+                    <li>Comprehensive conjugation table for all verbs and adjectives</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <section class="cta">
         <div class="container">
-            <p>Available now on the App Store.</p>
+            <h2>Start learning Korean today</h2>
+            <p>Free to download on the App Store.</p>
             <div class="download-buttons">
-                <a href="#" class="btn btn-primary">
-                    <svg class="app-store-icon" viewBox="0 0 24 24" fill="currentColor">
+                <a href="https://apps.apple.com/us/app/amgi-sajeon-korean-dictionary/id6757565609" class="btn btn-primary">
+                    <svg class="app-store-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                     </svg>
                     Download on the App Store
@@ -131,12 +185,15 @@
 
     <footer>
         <div class="container">
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="privacy-policy.html">Privacy Policy</a>
+            <div class="footer-inner">
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                </div>
+                <p>&copy; 2026 Benjamin Kray. All rights reserved.</p>
             </div>
-            <p>&copy; 2026 Benjamin Kray. All rights reserved.</p>
         </div>
     </footer>
+
 </body>
 </html>
