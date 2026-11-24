@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Amgi Sajeon (암기사전) — Offline Korean dictionary with SRS flashcards, Hanja explorer, conjugation tables, and grammar reference. No account required.">
+    <meta name="description" content="Amgi Sajeon (암기사전) — Offline Korean dictionary with SRS flashcards, Hanja explorer with cross-language cognates, conjugation tables, and grammar reference. Works in English, Korean, and Japanese. No account required.">
     <title>Amgi Sajeon — Offline Korean Dictionary & SRS Flashcards</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="assets/app-icon.png">
+    <link rel="alternate" hreflang="en" href="https://nebyark.github.io/amgi-sajeon-website/">
+    <link rel="alternate" hreflang="ko" href="https://nebyark.github.io/amgi-sajeon-website/ko/index.html">
+    <link rel="alternate" hreflang="ja" href="https://nebyark.github.io/amgi-sajeon-website/ja/index.html">
 </head>
 <body>
 
@@ -18,6 +21,11 @@
                     <h1>AMGI SAJEON</h1>
                     <p class="tagline">암기사전</p>
                 </div>
+                <nav class="lang-switcher" aria-label="Language">
+                    <span class="lang-current">EN</span>
+                    <a href="ko/index.html">한국어</a>
+                    <a href="ja/index.html">日本語</a>
+                </nav>
             </div>
         </div>
     </header>
@@ -29,7 +37,7 @@
                 iOS &amp; Android · Free to Download
             </div>
             <h2>The everything<br><em>Korean dictionary app.</em></h2>
-            <p class="hero-description">A complete learning toolkit — 61,000+ dictionary entries, Hanja explorer, spaced repetition (SRS) flashcards, and conjugations. Offline, no ads, and no account required.</p>
+            <p class="hero-description">A complete learning toolkit — 61,000+ dictionary entries, a Hanja explorer with cross-language cognates, spaced repetition (SRS) flashcards, and conjugations. Offline, no ads, no account required, and available in English, Korean, and Japanese.</p>
             <div class="download-buttons">
                 <a href="https://apps.apple.com/us/app/amgi-sajeon-korean-dictionary/id6757565609" class="app-store-badge-link">
                     <img src="assets/app-store-badge.svg" alt="Download on the App Store" class="app-store-badge">
@@ -60,8 +68,8 @@
                     <div class="feature-icon">
                         <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
                     </div>
-                    <h3>Hanja Explorer for CJK learners</h3>
-                    <p>Search and explore Hanja characters with readings across Korean, Japanese, Mandarin, and Cantonese. See every word that uses a given character.</p>
+                    <h3>Hanja Explorer & Cross-Language Cognates</h3>
+                    <p>Search Hanja characters with readings across Korean, Japanese, Mandarin, and Cantonese, and see every word that uses a given character. Browse shared Hanja compounds to find the matching word in Japanese, Chinese (Pinyin or Jyutping), or Vietnamese — words like 시간/時間 that share the same roots across languages.</p>
                 </div>
 
                 <div class="feature-card">
@@ -85,7 +93,7 @@
                         <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
                     </div>
                     <h3>Learning Hub</h3>
-                    <p>Browse common words by category — Family, Food, Daily Life, and more. Study NIKL frequency word lists and TOPIK I / TOPIK II vocabulary lists. Learn Hangul with 10 guided lessons. Searchable TOPIK grammar reference.</p>
+                    <p>Browse common words by category — Family, Food, Daily Life, and more. Study NIKL frequency word lists and TOPIK I / TOPIK II vocabulary lists. Work through guided Korean lessons with vocabulary and quizzes. Searchable TOPIK grammar reference.</p>
                 </div>
 
                 <div class="feature-card">
@@ -93,7 +101,7 @@
                         <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                     </div>
                     <h3>No Account. No Ads.</h3>
-                    <p>All data stored locally on your device. Romanization support, dark and light mode, optional Japanese search, and Pinyin/Jyutping for compound Hanja words.</p>
+                    <p>All data stored locally on your device. Use the app fully in English, Korean, or Japanese. Romanization support, dark and light mode, and Pinyin/Jyutping for compound Hanja words.</p>
                 </div>
             </div>
         </div>
@@ -187,6 +195,7 @@
             <div class="footer-inner">
                 <div class="footer-links">
                     <a href="index.html">Home</a>
+                    <a href="support.html">Support</a>
                     <a href="privacy-policy.html">Privacy Policy</a>
                 </div>
                 <p>&copy; 2026 Benjamin Kray. All rights reserved.</p>

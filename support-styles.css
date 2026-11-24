@@ -1,0 +1,118 @@
+/* Support Page Specific Styles */
+
+.support-content {
+    padding: 100px 0;
+    min-height: 70vh;
+}
+
+.support-wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.support-wrapper .section-title {
+    margin-bottom: 16px;
+}
+
+.support-wrapper .section-subtitle {
+    margin-bottom: 48px;
+}
+
+.support-card {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-xl);
+    padding: 48px 44px;
+    position: relative;
+    overflow: hidden;
+}
+
+.support-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+}
+
+.support-card-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-dim);
+    border: 1px solid rgba(99, 102, 241, 0.15);
+    border-radius: var(--radius-md);
+    color: var(--accent-light);
+}
+
+.support-card-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.support-card h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: var(--fg);
+}
+
+.support-card p {
+    color: var(--fg-muted);
+    font-size: 0.96rem;
+    line-height: 1.7;
+    margin-bottom: 28px;
+}
+
+.support-email-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 14px 28px;
+    border-radius: 100px;
+    transition: transform 200ms var(--ease-out), opacity 200ms var(--ease-out);
+}
+
+.support-email-button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.support-links {
+    margin-top: 36px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.support-links a {
+    color: var(--fg-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 150ms;
+}
+
+.support-links a:hover {
+    color: var(--fg);
+}
+
+@media (max-width: 768px) {
+    .support-content {
+        padding: 72px 0;
+    }
+    .support-card {
+        padding: 36px 28px;
+    }
+}
